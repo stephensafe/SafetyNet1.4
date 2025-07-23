@@ -1,0 +1,31 @@
+body {
+    background-color: #1a1a1a;
+    color: gold;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1a1a1a;
+    padding: 10px 20px;
+    border-bottom: 2px solid maroon;
+}
+.logo {
+    height: 60px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: maroon;
+    font-weight: bold;
+}
+main {
+    padding: 20px;
+}
